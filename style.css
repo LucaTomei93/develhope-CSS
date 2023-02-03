@@ -1,0 +1,48 @@
+.sidebar-container {
+    
+    width:200px;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0; 
+    top: 0;
+    /* position fixed con left e top a 0 li ho inseriti perché altrimenti rimane uno spaziettino vuoto 
+        che immagino non ci debba essere */
+}
+
+.logo-placeholder > img {
+    width: 200px;
+    height: 150px;
+}
+
+.link-list {
+    flex: 1;
+}
+
+.links li {
+    color: #2b2b2b;   
+    list-style: none;
+    gap: 10px;
+}
+
+.links li:hover {
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+.avatar > img {
+    width: 100px;
+    height: 100px;
+    /* misure non espressamente richieste, ho dato la metà della width della sidebar per far vedere bene che gli 
+        elementi fossero centrati*/
+}
+
+.signature {
+    display: flex;     
+    justify-content: center;    
+}
+
+
+
