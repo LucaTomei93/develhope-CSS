@@ -1,0 +1,35 @@
+body {
+    display: grid; 
+    grid-template-areas:
+    "verde verde verde"
+    "giallo rosso blu"
+    "arancione arancione blu";
+}
+
+/* ho scritto i values delle grid-area in italiano perché altrimenti mi prendeva i colori veri e propri */
+
+body section:first-child {
+    grid-area: verde;     
+}
+
+body section:nth-child(2) {
+    grid-area: giallo;
+}
+
+body section:nth-child(3) {
+    grid-area: arancione;
+}
+
+body section:nth-child(4) {
+    grid-area: rosso;
+}
+
+body section:last-child {
+    grid-area: blu;
+}
+
+ul {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
