@@ -1,0 +1,107 @@
+.grid div {
+    border: 1px solid rgb(126, 185, 185);
+    text-align: center;
+    
+}
+
+
+.sign {
+    background-color: rgb(185, 204, 241);
+}
+
+.equal {
+    background-color: coral;
+}
+
+.item {
+    background-color: bisque;
+}
+.grid div:first-child {
+    background-color: rgb(83, 74, 74);
+    color: white;
+    text-align: right;
+    grid-area: screen;
+    
+    
+}
+
+.grid div:nth-child(2) {
+    grid-area: plus;
+}
+
+.grid div:nth-child(3) {
+    grid-area: minus;
+}
+
+.grid div:nth-child(4) {
+    grid-area: molt;
+}
+ .grid div:nth-child(5) {
+    grid-area: fraction;
+ }
+
+ .grid div:nth-child(6) {
+    grid-area: seven;
+ }
+
+ .grid div:nth-child(7) {
+    grid-area: eight;
+ }
+ .grid div:nth-child(8) {
+    grid-area: nine;
+ }
+
+.grid div:nth-child(9) {
+    grid-area: equal;
+}
+.grid div:nth-child(10) {
+    grid-area: four;
+}
+
+.grid div:nth-child(11) {
+    grid-area: five;
+}
+
+.grid div:nth-child(12) {
+    grid-area: six;
+}
+
+.grid div:nth-child(13) {
+    grid-area: one;
+}
+.grid div:nth-child(14) {
+    grid-area: two;
+}
+.grid div:nth-child(15) {
+    grid-area: three;
+}
+.grid div:nth-child(16) {
+    grid-area: o;
+}
+
+.comma {
+    grid-area: comma;
+}
+
+.AC {
+    grid-area: AC;
+}
+
+.grid {
+    
+    display: grid; 
+    width: 600px;   
+    border-radius: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-weight: bold;
+    grid-template-areas: 
+    "screen screen screen screen"
+    "plus minus molt fraction"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "o comma AC equal";
+    
+        
+} 
