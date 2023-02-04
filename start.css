@@ -1,0 +1,25 @@
+body {
+    display: flex;    
+}
+
+body section:nth-child(2) {
+    order: 1;
+}
+
+body section:nth-child(4) {
+    order: 2;    
+}
+
+
+body section:first-child {
+    order: 3;   
+}
+
+body section:nth-child(3) {
+    order: 4;
+    flex: 2;    
+}
+
+body section:last-child {
+    order: 5;    
+}
